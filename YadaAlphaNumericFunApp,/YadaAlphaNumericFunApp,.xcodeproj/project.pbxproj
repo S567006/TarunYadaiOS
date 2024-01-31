@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5CB0ABB2B69685D004DC4EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB0ABA2B69685D004DC4EC /* AppDelegate.swift */; };
+		A5CB0ABD2B69685D004DC4EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB0ABC2B69685D004DC4EC /* SceneDelegate.swift */; };
+		A5CB0ABF2B69685D004DC4EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB0ABE2B69685D004DC4EC /* ViewController.swift */; };
+		A5CB0AC22B69685D004DC4EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CB0AC02B69685D004DC4EC /* Main.storyboard */; };
+		A5CB0AC42B69686B004DC4EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CB0AC32B69686B004DC4EC /* Assets.xcassets */; };
+		A5CB0AC72B69686B004DC4EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CB0AC52B69686B004DC4EC /* LaunchScreen.storyboard */; };
+		A5CB0AD22B69686B004DC4EC /* YadaAlphaNumericFunApp_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB0AD12B69686B004DC4EC /* YadaAlphaNumericFunApp_Tests.swift */; };
+		A5CB0ADC2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB0ADB2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITests.swift */; };
+		A5CB0ADE2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB0ADD2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5CB0ACE2B69686B004DC4EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5CB0AAF2B69685D004DC4EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5CB0AB62B69685D004DC4EC;
+			remoteInfo = "YadaAlphaNumericFunApp,";
+		};
+		A5CB0AD82B69686B004DC4EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5CB0AAF2B69685D004DC4EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5CB0AB62B69685D004DC4EC;
+			remoteInfo = "YadaAlphaNumericFunApp,";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5CB0AB72B69685D004DC4EC /* YadaAlphaNumericFunApp,.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YadaAlphaNumericFunApp,.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CB0ABA2B69685D004DC4EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5CB0ABC2B69685D004DC4EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A5CB0ABE2B69685D004DC4EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5CB0AC12B69685D004DC4EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5CB0AC32B69686B004DC4EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5CB0AC62B69686B004DC4EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5CB0AC82B69686B004DC4EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CB0ACD2B69686B004DC4EC /* YadaAlphaNumericFunApp,Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YadaAlphaNumericFunApp,Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CB0AD12B69686B004DC4EC /* YadaAlphaNumericFunApp_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YadaAlphaNumericFunApp_Tests.swift; sourceTree = "<group>"; };
+		A5CB0AD72B69686B004DC4EC /* YadaAlphaNumericFunApp,UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YadaAlphaNumericFunApp,UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5CB0ADB2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YadaAlphaNumericFunApp_UITests.swift; sourceTree = "<group>"; };
+		A5CB0ADD2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YadaAlphaNumericFunApp_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5CB0AB42B69685D004DC4EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CB0ACA2B69686B004DC4EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CB0AD42B69686B004DC4EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5CB0AAE2B69685D004DC4EC = {
+			isa = PBXGroup;
+			children = (
+				A5CB0AB92B69685D004DC4EC /* YadaAlphaNumericFunApp, */,
+				A5CB0AD02B69686B004DC4EC /* YadaAlphaNumericFunApp,Tests */,
+				A5CB0ADA2B69686B004DC4EC /* YadaAlphaNumericFunApp,UITests */,
+				A5CB0AB82B69685D004DC4EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5CB0AB82B69685D004DC4EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5CB0AB72B69685D004DC4EC /* YadaAlphaNumericFunApp,.app */,
+				A5CB0ACD2B69686B004DC4EC /* YadaAlphaNumericFunApp,Tests.xctest */,
+				A5CB0AD72B69686B004DC4EC /* YadaAlphaNumericFunApp,UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5CB0AB92B69685D004DC4EC /* YadaAlphaNumericFunApp, */ = {
+			isa = PBXGroup;
+			children = (
+				A5CB0ABA2B69685D004DC4EC /* AppDelegate.swift */,
+				A5CB0ABC2B69685D004DC4EC /* SceneDelegate.swift */,
+				A5CB0ABE2B69685D004DC4EC /* ViewController.swift */,
+				A5CB0AC02B69685D004DC4EC /* Main.storyboard */,
+				A5CB0AC32B69686B004DC4EC /* Assets.xcassets */,
+				A5CB0AC52B69686B004DC4EC /* LaunchScreen.storyboard */,
+				A5CB0AC82B69686B004DC4EC /* Info.plist */,
+			);
+			path = "YadaAlphaNumericFunApp,";
+			sourceTree = "<group>";
+		};
+		A5CB0AD02B69686B004DC4EC /* YadaAlphaNumericFunApp,Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A5CB0AD12B69686B004DC4EC /* YadaAlphaNumericFunApp_Tests.swift */,
+			);
+			path = "YadaAlphaNumericFunApp,Tests";
+			sourceTree = "<group>";
+		};
+		A5CB0ADA2B69686B004DC4EC /* YadaAlphaNumericFunApp,UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5CB0ADB2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITests.swift */,
+				A5CB0ADD2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITestsLaunchTests.swift */,
+			);
+			path = "YadaAlphaNumericFunApp,UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5CB0AB62B69685D004DC4EC /* YadaAlphaNumericFunApp, */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5CB0AE12B69686B004DC4EC /* Build configuration list for PBXNativeTarget "YadaAlphaNumericFunApp," */;
+			buildPhases = (
+				A5CB0AB32B69685D004DC4EC /* Sources */,
+				A5CB0AB42B69685D004DC4EC /* Frameworks */,
+				A5CB0AB52B69685D004DC4EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YadaAlphaNumericFunApp,";
+			productName = "YadaAlphaNumericFunApp,";
+			productReference = A5CB0AB72B69685D004DC4EC /* YadaAlphaNumericFunApp,.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5CB0ACC2B69686B004DC4EC /* YadaAlphaNumericFunApp,Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5CB0AE42B69686B004DC4EC /* Build configuration list for PBXNativeTarget "YadaAlphaNumericFunApp,Tests" */;
+			buildPhases = (
+				A5CB0AC92B69686B004DC4EC /* Sources */,
+				A5CB0ACA2B69686B004DC4EC /* Frameworks */,
+				A5CB0ACB2B69686B004DC4EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5CB0ACF2B69686B004DC4EC /* PBXTargetDependency */,
+			);
+			name = "YadaAlphaNumericFunApp,Tests";
+			productName = "YadaAlphaNumericFunApp,Tests";
+			productReference = A5CB0ACD2B69686B004DC4EC /* YadaAlphaNumericFunApp,Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5CB0AD62B69686B004DC4EC /* YadaAlphaNumericFunApp,UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5CB0AE72B69686B004DC4EC /* Build configuration list for PBXNativeTarget "YadaAlphaNumericFunApp,UITests" */;
+			buildPhases = (
+				A5CB0AD32B69686B004DC4EC /* Sources */,
+				A5CB0AD42B69686B004DC4EC /* Frameworks */,
+				A5CB0AD52B69686B004DC4EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5CB0AD92B69686B004DC4EC /* PBXTargetDependency */,
+			);
+			name = "YadaAlphaNumericFunApp,UITests";
+			productName = "YadaAlphaNumericFunApp,UITests";
+			productReference = A5CB0AD72B69686B004DC4EC /* YadaAlphaNumericFunApp,UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5CB0AAF2B69685D004DC4EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A5CB0AB62B69685D004DC4EC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A5CB0ACC2B69686B004DC4EC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A5CB0AB62B69685D004DC4EC;
+					};
+					A5CB0AD62B69686B004DC4EC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A5CB0AB62B69685D004DC4EC;
+					};
+				};
+			};
+			buildConfigurationList = A5CB0AB22B69685D004DC4EC /* Build configuration list for PBXProject "YadaAlphaNumericFunApp," */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5CB0AAE2B69685D004DC4EC;
+			productRefGroup = A5CB0AB82B69685D004DC4EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5CB0AB62B69685D004DC4EC /* YadaAlphaNumericFunApp, */,
+				A5CB0ACC2B69686B004DC4EC /* YadaAlphaNumericFunApp,Tests */,
+				A5CB0AD62B69686B004DC4EC /* YadaAlphaNumericFunApp,UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5CB0AB52B69685D004DC4EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CB0AC72B69686B004DC4EC /* LaunchScreen.storyboard in Resources */,
+				A5CB0AC42B69686B004DC4EC /* Assets.xcassets in Resources */,
+				A5CB0AC22B69685D004DC4EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CB0ACB2B69686B004DC4EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CB0AD52B69686B004DC4EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5CB0AB32B69685D004DC4EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CB0ABF2B69685D004DC4EC /* ViewController.swift in Sources */,
+				A5CB0ABB2B69685D004DC4EC /* AppDelegate.swift in Sources */,
+				A5CB0ABD2B69685D004DC4EC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CB0AC92B69686B004DC4EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CB0AD22B69686B004DC4EC /* YadaAlphaNumericFunApp_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CB0AD32B69686B004DC4EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CB0ADE2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITestsLaunchTests.swift in Sources */,
+				A5CB0ADC2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5CB0ACF2B69686B004DC4EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5CB0AB62B69685D004DC4EC /* YadaAlphaNumericFunApp, */;
+			targetProxy = A5CB0ACE2B69686B004DC4EC /* PBXContainerItemProxy */;
+		};
+		A5CB0AD92B69686B004DC4EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5CB0AB62B69685D004DC4EC /* YadaAlphaNumericFunApp, */;
+			targetProxy = A5CB0AD82B69686B004DC4EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5CB0AC02B69685D004DC4EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5CB0AC12B69685D004DC4EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5CB0AC52B69686B004DC4EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5CB0AC62B69686B004DC4EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5CB0ADF2B69686B004DC4EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5CB0AE02B69686B004DC4EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5CB0AE22B69686B004DC4EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YadaAlphaNumericFunApp,/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.YadaAlphaNumericFunApp-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5CB0AE32B69686B004DC4EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YadaAlphaNumericFunApp,/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.YadaAlphaNumericFunApp-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5CB0AE52B69686B004DC4EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.YadaAlphaNumericFunApp-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YadaAlphaNumericFunApp,.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YadaAlphaNumericFunApp,";
+			};
+			name = Debug;
+		};
+		A5CB0AE62B69686B004DC4EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.YadaAlphaNumericFunApp-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YadaAlphaNumericFunApp,.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YadaAlphaNumericFunApp,";
+			};
+			name = Release;
+		};
+		A5CB0AE82B69686B004DC4EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.YadaAlphaNumericFunApp-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "YadaAlphaNumericFunApp,";
+			};
+			name = Debug;
+		};
+		A5CB0AE92B69686B004DC4EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.YadaAlphaNumericFunApp-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "YadaAlphaNumericFunApp,";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5CB0AB22B69685D004DC4EC /* Build configuration list for PBXProject "YadaAlphaNumericFunApp," */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5CB0ADF2B69686B004DC4EC /* Debug */,
+				A5CB0AE02B69686B004DC4EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5CB0AE12B69686B004DC4EC /* Build configuration list for PBXNativeTarget "YadaAlphaNumericFunApp," */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5CB0AE22B69686B004DC4EC /* Debug */,
+				A5CB0AE32B69686B004DC4EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5CB0AE42B69686B004DC4EC /* Build configuration list for PBXNativeTarget "YadaAlphaNumericFunApp,Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5CB0AE52B69686B004DC4EC /* Debug */,
+				A5CB0AE62B69686B004DC4EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5CB0AE72B69686B004DC4EC /* Build configuration list for PBXNativeTarget "YadaAlphaNumericFunApp,UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5CB0AE82B69686B004DC4EC /* Debug */,
+				A5CB0AE92B69686B004DC4EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5CB0AAF2B69685D004DC4EC /* Project object */;
+}

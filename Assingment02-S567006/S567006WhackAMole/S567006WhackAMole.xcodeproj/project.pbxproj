@@ -7,68 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A54CCD852B6AF9CA00059ED6 /* AlphaNumericFunVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54CCD842B6AF9CA00059ED6 /* AlphaNumericFunVC.swift */; };
-		A5CB0ABB2B69685D004DC4EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB0ABA2B69685D004DC4EC /* AppDelegate.swift */; };
-		A5CB0ABD2B69685D004DC4EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB0ABC2B69685D004DC4EC /* SceneDelegate.swift */; };
-		A5CB0ABF2B69685D004DC4EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB0ABE2B69685D004DC4EC /* ViewController.swift */; };
-		A5CB0AC22B69685D004DC4EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CB0AC02B69685D004DC4EC /* Main.storyboard */; };
-		A5CB0AC42B69686B004DC4EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CB0AC32B69686B004DC4EC /* Assets.xcassets */; };
-		A5CB0AC72B69686B004DC4EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CB0AC52B69686B004DC4EC /* LaunchScreen.storyboard */; };
-		A5CB0AD22B69686B004DC4EC /* YadaAlphaNumericFunApp_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB0AD12B69686B004DC4EC /* YadaAlphaNumericFunApp_Tests.swift */; };
-		A5CB0ADC2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB0ADB2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITests.swift */; };
-		A5CB0ADE2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB0ADD2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITestsLaunchTests.swift */; };
+		A58665362B7713E900B71F90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58665352B7713E900B71F90 /* AppDelegate.swift */; };
+		A58665382B7713E900B71F90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58665372B7713E900B71F90 /* SceneDelegate.swift */; };
+		A586653A2B7713E900B71F90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58665392B7713E900B71F90 /* ViewController.swift */; };
+		A586653D2B7713E900B71F90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A586653B2B7713E900B71F90 /* Main.storyboard */; };
+		A586653F2B7713EC00B71F90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A586653E2B7713EC00B71F90 /* Assets.xcassets */; };
+		A58665422B7713EC00B71F90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58665402B7713EC00B71F90 /* LaunchScreen.storyboard */; };
+		A586654D2B7713EC00B71F90 /* S567006WhackAMoleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A586654C2B7713EC00B71F90 /* S567006WhackAMoleTests.swift */; };
+		A58665572B7713EC00B71F90 /* S567006WhackAMoleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58665562B7713EC00B71F90 /* S567006WhackAMoleUITests.swift */; };
+		A58665592B7713EC00B71F90 /* S567006WhackAMoleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58665582B7713EC00B71F90 /* S567006WhackAMoleUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A5CB0ACE2B69686B004DC4EC /* PBXContainerItemProxy */ = {
+		A58665492B7713EC00B71F90 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A5CB0AAF2B69685D004DC4EC /* Project object */;
+			containerPortal = A586652A2B7713E900B71F90 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A5CB0AB62B69685D004DC4EC;
-			remoteInfo = "YadaAlphaNumericFunApp,";
+			remoteGlobalIDString = A58665312B7713E900B71F90;
+			remoteInfo = S567006WhackAMole;
 		};
-		A5CB0AD82B69686B004DC4EC /* PBXContainerItemProxy */ = {
+		A58665532B7713EC00B71F90 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = A5CB0AAF2B69685D004DC4EC /* Project object */;
+			containerPortal = A586652A2B7713E900B71F90 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A5CB0AB62B69685D004DC4EC;
-			remoteInfo = "YadaAlphaNumericFunApp,";
+			remoteGlobalIDString = A58665312B7713E900B71F90;
+			remoteInfo = S567006WhackAMole;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A54CCD842B6AF9CA00059ED6 /* AlphaNumericFunVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaNumericFunVC.swift; sourceTree = "<group>"; };
-		A5CB0AB72B69685D004DC4EC /* YadaAlphaNumericFunApp,.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YadaAlphaNumericFunApp,.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5CB0ABA2B69685D004DC4EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A5CB0ABC2B69685D004DC4EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5CB0ABE2B69685D004DC4EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A5CB0AC12B69685D004DC4EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A5CB0AC32B69686B004DC4EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A5CB0AC62B69686B004DC4EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A5CB0AC82B69686B004DC4EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5CB0ACD2B69686B004DC4EC /* YadaAlphaNumericFunApp,Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YadaAlphaNumericFunApp,Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5CB0AD12B69686B004DC4EC /* YadaAlphaNumericFunApp_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YadaAlphaNumericFunApp_Tests.swift; sourceTree = "<group>"; };
-		A5CB0AD72B69686B004DC4EC /* YadaAlphaNumericFunApp,UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YadaAlphaNumericFunApp,UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5CB0ADB2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YadaAlphaNumericFunApp_UITests.swift; sourceTree = "<group>"; };
-		A5CB0ADD2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YadaAlphaNumericFunApp_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A58665322B7713E900B71F90 /* S567006WhackAMole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = S567006WhackAMole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58665352B7713E900B71F90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A58665372B7713E900B71F90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A58665392B7713E900B71F90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A586653C2B7713E900B71F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A586653E2B7713EC00B71F90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A58665412B7713EC00B71F90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A58665432B7713EC00B71F90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A58665482B7713EC00B71F90 /* S567006WhackAMoleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S567006WhackAMoleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A586654C2B7713EC00B71F90 /* S567006WhackAMoleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S567006WhackAMoleTests.swift; sourceTree = "<group>"; };
+		A58665522B7713EC00B71F90 /* S567006WhackAMoleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S567006WhackAMoleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58665562B7713EC00B71F90 /* S567006WhackAMoleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S567006WhackAMoleUITests.swift; sourceTree = "<group>"; };
+		A58665582B7713EC00B71F90 /* S567006WhackAMoleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S567006WhackAMoleUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A5CB0AB42B69685D004DC4EC /* Frameworks */ = {
+		A586652F2B7713E900B71F90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5CB0ACA2B69686B004DC4EC /* Frameworks */ = {
+		A58665452B7713EC00B71F90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5CB0AD42B69686B004DC4EC /* Frameworks */ = {
+		A586654F2B7713EC00B71F90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,138 +76,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A5CB0AAE2B69685D004DC4EC = {
+		A58665292B7713E900B71F90 = {
 			isa = PBXGroup;
 			children = (
-				A5CB0AB92B69685D004DC4EC /* YadaAlphaNumericFunApp, */,
-				A5CB0AD02B69686B004DC4EC /* YadaAlphaNumericFunApp,Tests */,
-				A5CB0ADA2B69686B004DC4EC /* YadaAlphaNumericFunApp,UITests */,
-				A5CB0AB82B69685D004DC4EC /* Products */,
+				A58665342B7713E900B71F90 /* S567006WhackAMole */,
+				A586654B2B7713EC00B71F90 /* S567006WhackAMoleTests */,
+				A58665552B7713EC00B71F90 /* S567006WhackAMoleUITests */,
+				A58665332B7713E900B71F90 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A5CB0AB82B69685D004DC4EC /* Products */ = {
+		A58665332B7713E900B71F90 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5CB0AB72B69685D004DC4EC /* YadaAlphaNumericFunApp,.app */,
-				A5CB0ACD2B69686B004DC4EC /* YadaAlphaNumericFunApp,Tests.xctest */,
-				A5CB0AD72B69686B004DC4EC /* YadaAlphaNumericFunApp,UITests.xctest */,
+				A58665322B7713E900B71F90 /* S567006WhackAMole.app */,
+				A58665482B7713EC00B71F90 /* S567006WhackAMoleTests.xctest */,
+				A58665522B7713EC00B71F90 /* S567006WhackAMoleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A5CB0AB92B69685D004DC4EC /* YadaAlphaNumericFunApp, */ = {
+		A58665342B7713E900B71F90 /* S567006WhackAMole */ = {
 			isa = PBXGroup;
 			children = (
-				A5CB0ABA2B69685D004DC4EC /* AppDelegate.swift */,
-				A5CB0ABC2B69685D004DC4EC /* SceneDelegate.swift */,
-				A54CCD842B6AF9CA00059ED6 /* AlphaNumericFunVC.swift */,
-				A5CB0ABE2B69685D004DC4EC /* ViewController.swift */,
-				A5CB0AC02B69685D004DC4EC /* Main.storyboard */,
-				A5CB0AC32B69686B004DC4EC /* Assets.xcassets */,
-				A5CB0AC52B69686B004DC4EC /* LaunchScreen.storyboard */,
-				A5CB0AC82B69686B004DC4EC /* Info.plist */,
+				A58665352B7713E900B71F90 /* AppDelegate.swift */,
+				A58665372B7713E900B71F90 /* SceneDelegate.swift */,
+				A58665392B7713E900B71F90 /* ViewController.swift */,
+				A586653B2B7713E900B71F90 /* Main.storyboard */,
+				A586653E2B7713EC00B71F90 /* Assets.xcassets */,
+				A58665402B7713EC00B71F90 /* LaunchScreen.storyboard */,
+				A58665432B7713EC00B71F90 /* Info.plist */,
 			);
-			path = "YadaAlphaNumericFunApp,";
+			path = S567006WhackAMole;
 			sourceTree = "<group>";
 		};
-		A5CB0AD02B69686B004DC4EC /* YadaAlphaNumericFunApp,Tests */ = {
+		A586654B2B7713EC00B71F90 /* S567006WhackAMoleTests */ = {
 			isa = PBXGroup;
 			children = (
-				A5CB0AD12B69686B004DC4EC /* YadaAlphaNumericFunApp_Tests.swift */,
+				A586654C2B7713EC00B71F90 /* S567006WhackAMoleTests.swift */,
 			);
-			path = "YadaAlphaNumericFunApp,Tests";
+			path = S567006WhackAMoleTests;
 			sourceTree = "<group>";
 		};
-		A5CB0ADA2B69686B004DC4EC /* YadaAlphaNumericFunApp,UITests */ = {
+		A58665552B7713EC00B71F90 /* S567006WhackAMoleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A5CB0ADB2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITests.swift */,
-				A5CB0ADD2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITestsLaunchTests.swift */,
+				A58665562B7713EC00B71F90 /* S567006WhackAMoleUITests.swift */,
+				A58665582B7713EC00B71F90 /* S567006WhackAMoleUITestsLaunchTests.swift */,
 			);
-			path = "YadaAlphaNumericFunApp,UITests";
+			path = S567006WhackAMoleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A5CB0AB62B69685D004DC4EC /* YadaAlphaNumericFunApp, */ = {
+		A58665312B7713E900B71F90 /* S567006WhackAMole */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5CB0AE12B69686B004DC4EC /* Build configuration list for PBXNativeTarget "YadaAlphaNumericFunApp," */;
+			buildConfigurationList = A586655C2B7713EC00B71F90 /* Build configuration list for PBXNativeTarget "S567006WhackAMole" */;
 			buildPhases = (
-				A5CB0AB32B69685D004DC4EC /* Sources */,
-				A5CB0AB42B69685D004DC4EC /* Frameworks */,
-				A5CB0AB52B69685D004DC4EC /* Resources */,
+				A586652E2B7713E900B71F90 /* Sources */,
+				A586652F2B7713E900B71F90 /* Frameworks */,
+				A58665302B7713E900B71F90 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "YadaAlphaNumericFunApp,";
-			productName = "YadaAlphaNumericFunApp,";
-			productReference = A5CB0AB72B69685D004DC4EC /* YadaAlphaNumericFunApp,.app */;
+			name = S567006WhackAMole;
+			productName = S567006WhackAMole;
+			productReference = A58665322B7713E900B71F90 /* S567006WhackAMole.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A5CB0ACC2B69686B004DC4EC /* YadaAlphaNumericFunApp,Tests */ = {
+		A58665472B7713EC00B71F90 /* S567006WhackAMoleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5CB0AE42B69686B004DC4EC /* Build configuration list for PBXNativeTarget "YadaAlphaNumericFunApp,Tests" */;
+			buildConfigurationList = A586655F2B7713EC00B71F90 /* Build configuration list for PBXNativeTarget "S567006WhackAMoleTests" */;
 			buildPhases = (
-				A5CB0AC92B69686B004DC4EC /* Sources */,
-				A5CB0ACA2B69686B004DC4EC /* Frameworks */,
-				A5CB0ACB2B69686B004DC4EC /* Resources */,
+				A58665442B7713EC00B71F90 /* Sources */,
+				A58665452B7713EC00B71F90 /* Frameworks */,
+				A58665462B7713EC00B71F90 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A5CB0ACF2B69686B004DC4EC /* PBXTargetDependency */,
+				A586654A2B7713EC00B71F90 /* PBXTargetDependency */,
 			);
-			name = "YadaAlphaNumericFunApp,Tests";
-			productName = "YadaAlphaNumericFunApp,Tests";
-			productReference = A5CB0ACD2B69686B004DC4EC /* YadaAlphaNumericFunApp,Tests.xctest */;
+			name = S567006WhackAMoleTests;
+			productName = S567006WhackAMoleTests;
+			productReference = A58665482B7713EC00B71F90 /* S567006WhackAMoleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A5CB0AD62B69686B004DC4EC /* YadaAlphaNumericFunApp,UITests */ = {
+		A58665512B7713EC00B71F90 /* S567006WhackAMoleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5CB0AE72B69686B004DC4EC /* Build configuration list for PBXNativeTarget "YadaAlphaNumericFunApp,UITests" */;
+			buildConfigurationList = A58665622B7713EC00B71F90 /* Build configuration list for PBXNativeTarget "S567006WhackAMoleUITests" */;
 			buildPhases = (
-				A5CB0AD32B69686B004DC4EC /* Sources */,
-				A5CB0AD42B69686B004DC4EC /* Frameworks */,
-				A5CB0AD52B69686B004DC4EC /* Resources */,
+				A586654E2B7713EC00B71F90 /* Sources */,
+				A586654F2B7713EC00B71F90 /* Frameworks */,
+				A58665502B7713EC00B71F90 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A5CB0AD92B69686B004DC4EC /* PBXTargetDependency */,
+				A58665542B7713EC00B71F90 /* PBXTargetDependency */,
 			);
-			name = "YadaAlphaNumericFunApp,UITests";
-			productName = "YadaAlphaNumericFunApp,UITests";
-			productReference = A5CB0AD72B69686B004DC4EC /* YadaAlphaNumericFunApp,UITests.xctest */;
+			name = S567006WhackAMoleUITests;
+			productName = S567006WhackAMoleUITests;
+			productReference = A58665522B7713EC00B71F90 /* S567006WhackAMoleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A5CB0AAF2B69685D004DC4EC /* Project object */ = {
+		A586652A2B7713E900B71F90 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					A5CB0AB62B69685D004DC4EC = {
+					A58665312B7713E900B71F90 = {
 						CreatedOnToolsVersion = 15.2;
 					};
-					A5CB0ACC2B69686B004DC4EC = {
+					A58665472B7713EC00B71F90 = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = A5CB0AB62B69685D004DC4EC;
+						TestTargetID = A58665312B7713E900B71F90;
 					};
-					A5CB0AD62B69686B004DC4EC = {
+					A58665512B7713EC00B71F90 = {
 						CreatedOnToolsVersion = 15.2;
-						TestTargetID = A5CB0AB62B69685D004DC4EC;
+						TestTargetID = A58665312B7713E900B71F90;
 					};
 				};
 			};
-			buildConfigurationList = A5CB0AB22B69685D004DC4EC /* Build configuration list for PBXProject "YadaAlphaNumericFunApp," */;
+			buildConfigurationList = A586652D2B7713E900B71F90 /* Build configuration list for PBXProject "S567006WhackAMole" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = A5CB0AAE2B69685D004DC4EC;
-			productRefGroup = A5CB0AB82B69685D004DC4EC /* Products */;
+			mainGroup = A58665292B7713E900B71F90;
+			productRefGroup = A58665332B7713E900B71F90 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5CB0AB62B69685D004DC4EC /* YadaAlphaNumericFunApp, */,
-				A5CB0ACC2B69686B004DC4EC /* YadaAlphaNumericFunApp,Tests */,
-				A5CB0AD62B69686B004DC4EC /* YadaAlphaNumericFunApp,UITests */,
+				A58665312B7713E900B71F90 /* S567006WhackAMole */,
+				A58665472B7713EC00B71F90 /* S567006WhackAMoleTests */,
+				A58665512B7713EC00B71F90 /* S567006WhackAMoleUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A5CB0AB52B69685D004DC4EC /* Resources */ = {
+		A58665302B7713E900B71F90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5CB0AC72B69686B004DC4EC /* LaunchScreen.storyboard in Resources */,
-				A5CB0AC42B69686B004DC4EC /* Assets.xcassets in Resources */,
-				A5CB0AC22B69685D004DC4EC /* Main.storyboard in Resources */,
+				A58665422B7713EC00B71F90 /* LaunchScreen.storyboard in Resources */,
+				A586653F2B7713EC00B71F90 /* Assets.xcassets in Resources */,
+				A586653D2B7713E900B71F90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5CB0ACB2B69686B004DC4EC /* Resources */ = {
+		A58665462B7713EC00B71F90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5CB0AD52B69686B004DC4EC /* Resources */ = {
+		A58665502B7713EC00B71F90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -257,62 +254,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A5CB0AB32B69685D004DC4EC /* Sources */ = {
+		A586652E2B7713E900B71F90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5CB0ABF2B69685D004DC4EC /* ViewController.swift in Sources */,
-				A54CCD852B6AF9CA00059ED6 /* AlphaNumericFunVC.swift in Sources */,
-				A5CB0ABB2B69685D004DC4EC /* AppDelegate.swift in Sources */,
-				A5CB0ABD2B69685D004DC4EC /* SceneDelegate.swift in Sources */,
+				A586653A2B7713E900B71F90 /* ViewController.swift in Sources */,
+				A58665362B7713E900B71F90 /* AppDelegate.swift in Sources */,
+				A58665382B7713E900B71F90 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5CB0AC92B69686B004DC4EC /* Sources */ = {
+		A58665442B7713EC00B71F90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5CB0AD22B69686B004DC4EC /* YadaAlphaNumericFunApp_Tests.swift in Sources */,
+				A586654D2B7713EC00B71F90 /* S567006WhackAMoleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5CB0AD32B69686B004DC4EC /* Sources */ = {
+		A586654E2B7713EC00B71F90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5CB0ADE2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITestsLaunchTests.swift in Sources */,
-				A5CB0ADC2B69686B004DC4EC /* YadaAlphaNumericFunApp_UITests.swift in Sources */,
+				A58665592B7713EC00B71F90 /* S567006WhackAMoleUITestsLaunchTests.swift in Sources */,
+				A58665572B7713EC00B71F90 /* S567006WhackAMoleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A5CB0ACF2B69686B004DC4EC /* PBXTargetDependency */ = {
+		A586654A2B7713EC00B71F90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A5CB0AB62B69685D004DC4EC /* YadaAlphaNumericFunApp, */;
-			targetProxy = A5CB0ACE2B69686B004DC4EC /* PBXContainerItemProxy */;
+			target = A58665312B7713E900B71F90 /* S567006WhackAMole */;
+			targetProxy = A58665492B7713EC00B71F90 /* PBXContainerItemProxy */;
 		};
-		A5CB0AD92B69686B004DC4EC /* PBXTargetDependency */ = {
+		A58665542B7713EC00B71F90 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A5CB0AB62B69685D004DC4EC /* YadaAlphaNumericFunApp, */;
-			targetProxy = A5CB0AD82B69686B004DC4EC /* PBXContainerItemProxy */;
+			target = A58665312B7713E900B71F90 /* S567006WhackAMole */;
+			targetProxy = A58665532B7713EC00B71F90 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A5CB0AC02B69685D004DC4EC /* Main.storyboard */ = {
+		A586653B2B7713E900B71F90 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A5CB0AC12B69685D004DC4EC /* Base */,
+				A586653C2B7713E900B71F90 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A5CB0AC52B69686B004DC4EC /* LaunchScreen.storyboard */ = {
+		A58665402B7713EC00B71F90 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A5CB0AC62B69686B004DC4EC /* Base */,
+				A58665412B7713EC00B71F90 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		A5CB0ADF2B69686B004DC4EC /* Debug */ = {
+		A586655A2B7713EC00B71F90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -383,7 +379,7 @@
 			};
 			name = Debug;
 		};
-		A5CB0AE02B69686B004DC4EC /* Release */ = {
+		A586655B2B7713EC00B71F90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -439,7 +435,7 @@
 			};
 			name = Release;
 		};
-		A5CB0AE22B69686B004DC4EC /* Debug */ = {
+		A586655D2B7713EC00B71F90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -447,7 +443,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "YadaAlphaNumericFunApp,/Info.plist";
+				INFOPLIST_FILE = S567006WhackAMole/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -458,7 +454,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.YadaAlphaNumericFunApp-";
+				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.S567006WhackAMole";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -466,7 +462,7 @@
 			};
 			name = Debug;
 		};
-		A5CB0AE32B69686B004DC4EC /* Release */ = {
+		A586655E2B7713EC00B71F90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -474,7 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "YadaAlphaNumericFunApp,/Info.plist";
+				INFOPLIST_FILE = S567006WhackAMole/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -485,7 +481,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.YadaAlphaNumericFunApp-";
+				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.S567006WhackAMole";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -493,7 +489,7 @@
 			};
 			name = Release;
 		};
-		A5CB0AE52B69686B004DC4EC /* Debug */ = {
+		A58665602B7713EC00B71F90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -503,16 +499,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.YadaAlphaNumericFunApp-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.S567006WhackAMoleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YadaAlphaNumericFunApp,.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YadaAlphaNumericFunApp,";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/S567006WhackAMole.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/S567006WhackAMole";
 			};
 			name = Debug;
 		};
-		A5CB0AE62B69686B004DC4EC /* Release */ = {
+		A58665612B7713EC00B71F90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -522,16 +518,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.YadaAlphaNumericFunApp-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.S567006WhackAMoleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YadaAlphaNumericFunApp,.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YadaAlphaNumericFunApp,";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/S567006WhackAMole.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/S567006WhackAMole";
 			};
 			name = Release;
 		};
-		A5CB0AE82B69686B004DC4EC /* Debug */ = {
+		A58665632B7713EC00B71F90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -539,16 +535,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.YadaAlphaNumericFunApp-UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.S567006WhackAMoleUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "YadaAlphaNumericFunApp,";
+				TEST_TARGET_NAME = S567006WhackAMole;
 			};
 			name = Debug;
 		};
-		A5CB0AE92B69686B004DC4EC /* Release */ = {
+		A58665642B7713EC00B71F90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -556,55 +552,55 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.YadaAlphaNumericFunApp-UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "-edu.nwmissouri.spring24.cs44643.sec03-.S567006WhackAMoleUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "YadaAlphaNumericFunApp,";
+				TEST_TARGET_NAME = S567006WhackAMole;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A5CB0AB22B69685D004DC4EC /* Build configuration list for PBXProject "YadaAlphaNumericFunApp," */ = {
+		A586652D2B7713E900B71F90 /* Build configuration list for PBXProject "S567006WhackAMole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5CB0ADF2B69686B004DC4EC /* Debug */,
-				A5CB0AE02B69686B004DC4EC /* Release */,
+				A586655A2B7713EC00B71F90 /* Debug */,
+				A586655B2B7713EC00B71F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5CB0AE12B69686B004DC4EC /* Build configuration list for PBXNativeTarget "YadaAlphaNumericFunApp," */ = {
+		A586655C2B7713EC00B71F90 /* Build configuration list for PBXNativeTarget "S567006WhackAMole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5CB0AE22B69686B004DC4EC /* Debug */,
-				A5CB0AE32B69686B004DC4EC /* Release */,
+				A586655D2B7713EC00B71F90 /* Debug */,
+				A586655E2B7713EC00B71F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5CB0AE42B69686B004DC4EC /* Build configuration list for PBXNativeTarget "YadaAlphaNumericFunApp,Tests" */ = {
+		A586655F2B7713EC00B71F90 /* Build configuration list for PBXNativeTarget "S567006WhackAMoleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5CB0AE52B69686B004DC4EC /* Debug */,
-				A5CB0AE62B69686B004DC4EC /* Release */,
+				A58665602B7713EC00B71F90 /* Debug */,
+				A58665612B7713EC00B71F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5CB0AE72B69686B004DC4EC /* Build configuration list for PBXNativeTarget "YadaAlphaNumericFunApp,UITests" */ = {
+		A58665622B7713EC00B71F90 /* Build configuration list for PBXNativeTarget "S567006WhackAMoleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A5CB0AE82B69686B004DC4EC /* Debug */,
-				A5CB0AE92B69686B004DC4EC /* Release */,
+				A58665632B7713EC00B71F90 /* Debug */,
+				A58665642B7713EC00B71F90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A5CB0AAF2B69685D004DC4EC /* Project object */;
+	rootObject = A586652A2B7713E900B71F90 /* Project object */;
 }
